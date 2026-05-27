@@ -1,0 +1,26 @@
+{
+  "source": "artifact/results/full_csv/hyperparameters/monthly_validation_tuned_params.json",
+  "granularity": "monthly",
+  "hash_dim": 262144,
+  "svd_components": 64,
+  "n_clusters_init": 20,
+  "cluster_ttl": 3,
+  "perf_ema_alpha": 0.3,
+  "burst_threshold": 3.0,
+  "drift_weights": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "max_update_frac": 0.3,
+  "drift_budget_scale": 1.5,
+  "cluster_priority_new": 2.0,
+  "cluster_priority_drift": 1.5,
+  "cluster_priority_stable": 0.5,
+  "xai_top_k": 10,
+  "classifier_alpha": 1e-05,
+  "ks_min_effect": 0.1,
+  "combined_threshold": 0.35,
+  "drift_lambda": 0.5,
+  "new_cluster_dist": 0.25
+}

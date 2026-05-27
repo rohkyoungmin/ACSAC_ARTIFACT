@@ -1,0 +1,2 @@
+source,granularity,hash_dim,svd_components,n_clusters_init,cluster_ttl,perf_ema_alpha,burst_threshold,drift_weights,max_update_frac,drift_budget_scale,cluster_priority_new,cluster_priority_drift,cluster_priority_stable,xai_top_k,classifier_alpha,ks_min_effect,combined_threshold,drift_lambda,new_cluster_dist
+artifact/results/full_csv/hyperparameters/monthly_validation_tuned_params.json,monthly,262144,64,20,3,0.3,3.0,"[0.4, 0.3, 0.3]",0.3,1.5,2.0,1.5,0.5,10,1e-05,0.1,0.35,0.5,0.25

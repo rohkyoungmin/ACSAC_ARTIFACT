@@ -1,0 +1,5 @@
+metric,mean,std,n
+top_feature_stability_jaccard,0.9270114262944725,0.18917619876451316,1921
+backprojection_cosine_to_member_mean,0.8277594847067331,0.10010591954770384,1664
+topk_bucket_overlap_to_member_mean,0.42857960345848084,0.26200548821989006,1664
+xai_case_study_candidate_count,350.0,0.0,350

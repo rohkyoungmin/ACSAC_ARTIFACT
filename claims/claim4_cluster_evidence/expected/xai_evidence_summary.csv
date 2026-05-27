@@ -1,0 +1,5 @@
+dataset,records,periods,inspected_clusters,dominant_class_purity,source
+Monthly,1992,36,71,,paper Section VI-E; raw monthly and external XAI CSVs in full_csv
+Yearly,210,7,36,,paper Section VI-E; raw monthly and external XAI CSVs in full_csv
+DREBIN,,,,0.941,paper Section VI-E; raw monthly and external XAI CSVs in full_csv
+Marvin,,,,0.864,paper Section VI-E; raw monthly and external XAI CSVs in full_csv

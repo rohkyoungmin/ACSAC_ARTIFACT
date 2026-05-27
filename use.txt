@@ -1,0 +1,8 @@
+Intended use:
+This artifact is intended to reproduce and inspect the paper's experimental claims about temporal Android malware detection under concept drift, cluster-guided selective review, and semantic cluster evidence.
+
+Limitations:
+The system is a research prototype and is not a production malware detector. The external DREBIN and Marvin outputs are cluster-level evidence inspections, not malware-family classification results. The artifact reports the experiments claimed in the submitted paper only; exploratory controls not in the paper are excluded from the paper-facing claim tables.
+
+Privacy and safety:
+The artifact uses extracted static/behavioral feature representations, not runnable APK files. Do not use the artifact to identify individual users or devices.

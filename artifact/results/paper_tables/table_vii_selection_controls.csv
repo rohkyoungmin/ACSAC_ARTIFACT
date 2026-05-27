@@ -1,0 +1,5 @@
+method,selection_variant,inspired_by,review_percent,f1,aut,auc_pr,fpr_at_tpr90,uses_cluster,source
+RandomSelective,Random selection,naive baseline,33.3,0.877,0.88,0.826,0.132,False,results/performance/monthly/selection_criterion_ablation_summary.csv
+UncertaintyOnly,Uncertainty-based selection,classic AL [Chen'23-style],33.3,0.873,0.875,0.829,0.134,False,results/performance/monthly/selection_criterion_ablation_summary.csv
+Distance-to-centroid,Distance-to-centroid selection,CADE-style drift score [10],33.3,0.854,0.857,0.805,0.151,False,results/performance/monthly/selection_criterion_ablation_summary.csv
+Proposed,Cluster-priority (ours),this work,33.3,0.889,0.891,0.834,0.135,True,results/performance/monthly/selection_criterion_ablation_summary.csv

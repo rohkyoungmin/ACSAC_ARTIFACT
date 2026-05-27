@@ -1,0 +1,9 @@
+item,setting,detail
+temporal_split,train_then_validate_then_future_test,"Train uses only 2014 months, validation uses only 2015 months, and all months after 2015 are treated as future test months."
+train_months,2014-01..2014-12,"Initial detector, semantic SVD, initial clusters, and XAI background are fit on train only."
+validation_months,2015-01..2015-12,Only validation months are used for hyperparameter selection.
+test_months,2016-01..2018-12,Test months are consumed chronologically and are never used to tune parameters.
+tuned_parameters,"ks_min_effect, combined_threshold, drift_lambda, new_cluster_dist",These are the same Proposed parameters tuned by exp_06_proposed.py through tune_on_val().
+primary_selection_metric,validation_mean_auc_pr,AUC-PR is used for validation selection because malware detection is class-imbalanced.
+reported_metrics,"Macro-F1, AUC-PR, AUC-ROC, FPR@TPR=90%, label_update_ratio, runtime",Accuracy alone is intentionally excluded from the main claim because it is base-rate sensitive.
+future_information_rule,no_test_tuning_no_preloading_future_labels,Cluster assignment and drift monitoring use unlabeled monthly features/scores; labels are used only for evaluation and selected update samples.

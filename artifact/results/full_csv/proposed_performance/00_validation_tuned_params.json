@@ -1,0 +1,7 @@
+{
+  "source": "validation_grid_search",
+  "ks_min_effect": 0.1,
+  "combined_threshold": 0.35,
+  "drift_lambda": 0.5,
+  "new_cluster_dist": 0.25
+}

@@ -1,0 +1,5 @@
+variant,internal_method,review_percent,f1,aut,auc_pr,fpr_at_tpr90,source
+Baseline,Random+Standard,33.3,0.88,0.881,0.836,0.145,results/proposed_performance/02_module_ablation_summary.csv
++Cluster,Cluster+DriftScore,33.3,0.896,0.9,0.855,0.122,results/proposed_performance/02_module_ablation_summary.csv
++DriftLoss,Random+DriftLoss,33.3,0.877,0.879,0.833,0.121,results/proposed_performance/02_module_ablation_summary.csv
+Proposed,Proposed,33.3,0.889,0.891,0.834,0.135,results/proposed_performance/02_module_ablation_summary.csv

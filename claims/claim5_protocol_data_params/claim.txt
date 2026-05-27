@@ -1,0 +1,3 @@
+Claim 5: The artifact uses the paper's temporal split, dataset distributions, and complete proposed-method hyperparameter specification.
+
+Paper location: Section V-A, Appendix A, and Appendix B.

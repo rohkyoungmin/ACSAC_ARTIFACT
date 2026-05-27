@@ -1,0 +1,3 @@
+Claim 4: The cluster registry produces analyst-facing evidence records and prioritizes new/drift-sensitive clusters for review.
+
+Paper location: Section VI-D, Section VI-E, Table IX, and Table X.

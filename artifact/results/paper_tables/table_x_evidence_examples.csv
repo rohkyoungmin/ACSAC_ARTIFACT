@@ -1,0 +1,4 @@
+cluster,period,type,representative_evidence,review_next_period,source
+Device/account,2016-02,New,getDeviceId; READ_PHONE_STATE; AccountManager.invalidateAuthToken; C2D-style messaging permissions,41/41 selected; TPR 0.8535 vs 0.3213 Static,paper Table X; detailed candidates in proposed_performance/06_xai_case_study_candidates.csv
+Wake-lock/network,2016-04,Drifted,WAKE_LOCK; PowerManager.WakeLock.acquire; getSystemService; INTERNET; launcher/component features,127/285 selected; FPR@90 0.0464 vs 0.6081 Static,paper Table X; detailed candidates in proposed_performance/06_xai_case_study_candidates.csv
+Malware-dominant,2017-04,Drifted,READ_PHONE_STATE; ACCESS_WIFI_STATE; launcher intent; MessageCenterActivity,61/136 selected; F1 0.9372 vs 0.5542 Static,paper Table X; detailed candidates in proposed_performance/06_xai_case_study_candidates.csv

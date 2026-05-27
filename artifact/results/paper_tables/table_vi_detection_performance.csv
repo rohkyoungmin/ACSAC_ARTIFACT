@@ -1,0 +1,7 @@
+setting,method,review_percent,f1,aut,auc_pr,fpr_at_tpr90,source
+Monthly,Static,0.0,0.656,0.657,0.493,0.546,results/proposed_performance/01_main_performance_summary.csv
+Monthly,FullUpdate,100.0,0.887,0.889,0.852,0.084,results/proposed_performance/01_main_performance_summary.csv
+Monthly,Proposed,33.3,0.889,0.891,0.834,0.135,results/proposed_performance/01_main_performance_summary.csv
+Yearly,Static,0.0,0.412,0.394,0.325,0.537,results/performance/baseline_tables/yearly_baseline_comparison_summary.csv
+Yearly,FullUpdate,100.0,0.802,0.787,0.76,0.154,results/performance/baseline_tables/yearly_baseline_comparison_summary.csv
+Yearly,Proposed,33.7,0.844,0.836,0.762,0.116,results/performance/baseline_tables/yearly_baseline_comparison_summary.csv

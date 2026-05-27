@@ -1,0 +1,4 @@
+type,n_cluster_months,selection,review_share,mw_rate,source
+New,59,0.814,0.017,0.101,paper Table IX; raw evidence snapshots in proposed_performance/06_proposed_xai_snapshots.csv
+Drift,387,0.426,0.023,0.107,paper Table IX; raw evidence snapshots in proposed_performance/06_proposed_xai_snapshots.csv
+Stable,1546,0.258,0.017,0.107,paper Table IX; raw evidence snapshots in proposed_performance/06_proposed_xai_snapshots.csv

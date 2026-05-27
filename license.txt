@@ -1,0 +1,9 @@
+Artifact code license: MIT License
+License URL: https://opensource.org/license/mit/
+
+Copyright (c) 2026 the artifact authors.
+
+Permission is granted to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the artifact code, subject to the MIT License terms.
+
+Data license and restrictions:
+The included Android feature datasets are provided for academic artifact evaluation and reproducibility of the associated ACSAC paper. They should not be used for commercial deployment, re-identification, or redistribution outside the evaluation/research context unless the original dataset terms permit it. Any third-party dataset terms continue to apply.
